@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffdd09;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  height: 50%;
+  overflow: scroll;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  overflow: scroll;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  overflow: scroll;
+  height: 500px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+<div class="navbar">
+  <a href="https://mypages.valdosta.edu/thbeheler/FinalProject/HTML/index2.html">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">About
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://mypages.valdosta.edu/thbeheler/FinalProject/HTML/history.html">History</a>
+      <a href="https://mypages.valdosta.edu/thbeheler/FinalProject/HTML/MeettheCast.html">Meet the Cast</a>
+      <a href="https://mypages.valdosta.edu/thbeheler/FinalProject/HTML/gallery.html">Gallery</a>
+    </div>
+  </div>
+  <a href="https://mypages.valdosta.edu/thbeheler/FinalProject/HTML/ContactUs.html">Contact Us</a>
+<a href="https://mypages.valdosta.edu/thbeheler/FinalProject/HTML/FAQ.html">FAQ's</a>
+  </div>
+</div>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="background-color:#43cfec;">Meet the Cast</h1>
+
+<h2>Look at their faces!</h2>
+<p>Get to know us! we love people.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <a data-flickr-embed="true" href="https://www.flickr.com/gp/185945467@N05/2RuB8E" title="Headshot 1"><img src="https://live.staticflickr.com/65535/49205528926_7e5413b796_n.jpg" width="250" height="320" alt="Headshot 1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      <h3>Tom Beheler</h3>
+      <p> Tom is a librarian by day and an actor by night! He has worked with various professional theater companies in the DMV as well as Netflix, HBO and
+ Discovery ID. He graduated from the University of Maryland, College Park with a degree in Theater and was a recipient of the Creative and
+ Performing Arts Scholarship. He also studied Improvisation and Comedy Writing at the Second City theater in Chicago. When he isn't working, Tom
+ enjoys cooking, performing on silks, and watching tiny house documentaries. He is grateful to be one of the original members of Free Range Improv.
+ Enjoy the show!</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <a data-flickr-embed="true" href="https://www.flickr.com/gp/185945467@N05/57090w" title="50805758_10101192884831161_7242288573091676160_n"><img src="https://live.staticflickr.com/65535/49205486013_3c2332f12c_n.jpg" width="240" height="320" alt="50805758_10101192884831161_7242288573091676160_n"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      <h3>Rosalind Paris</h3>
+      <p>Ros emerged from the head of Zeus with an innate love of all things improv. Often revered as the Greek goddess of awkward situations, she's been doing improv for about 10 years now. Ros joined Jeff, her first troupe, when she was in high school. She is now honored to be a founding member of both All Puns Intended and of course, Free Range Improv!</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <a data-flickr-embed="true" href="https://www.flickr.com/gp/185945467@N05/74CYp8" title="35806845_10216658325477122_4485949811454902272_n"><img src="https://live.staticflickr.com/65535/49206185867_4f273873ed_n.jpg" width="240" height="320" alt="35806845_10216658325477122_4485949811454902272_n"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      <h3>Debbie Borth</h3>
+      <p>Debbie, by nature, likes to play. "Pretending" was always her favorite game as a kid, and well, some things never change. After pursuing a career in art, she was employed as a graphic designer, she married and had kids. After a while she decided she needed to go back to "playing", so on a whim began taking acting classes, most recently at The Studio Acting Conservatory in DC. She found her passion for the stage. She has been acting in community theater for years and has appeared in many local productions. While she enjoys creating characters and memorizing lines someone else has written, she finds it more challenging and enjoyable to make up her own. She feels very fortunate to be finding herself amongst these very talented, funny people and is honored to be a member of this funny funny troupe.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+   <a data-flickr-embed="true" href="https://www.flickr.com/gp/185945467@N05/1ky782" title="23592307_10156300479833488_7710280700289990665_o"><img src="https://live.staticflickr.com/65535/49206185882_0df2475dfd_n.jpg" width="240" height="320" alt="23592307_10156300479833488_7710280700289990665_o"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+      <h3>Brooks Schandelmeier</h3>
+      <p>Spawned in the wild tundra of Maine as a genetic experiment crossing the DNA of Paul Bunyan and Wonder Woman, Brooks knew he was destined for greater things. He has not accomplished those things yet, but you can't judge him because you're not his real dad. In his spare time, Brooks enjoys puppies, having a strong jaw line, and the cleansing power of fire. Brooks is happy to be the newest addition to Free Range Improv.
+</p>
+    </div>
+  </div>
+<div class="column">
+    <div class="content">
+<a data-flickr-embed="true" href="https://www.flickr.com/gp/185945467@N05/kpM954" title="74567_10150324515010109_7081162_n"><img src="https://live.staticflickr.com/65535/49205486243_6ef2ec1bb7_n.jpg" width="212" height="320" alt="74567_10150324515010109_7081162_n"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>       <h3>Liza Skinner</h3>
+      <p> Liza Warder is thrilled to be a part of FRI. Prior to all the fun times and laughs with FRI, she studied a bit of theater at NYU and WVU and found herself in many roles that were just not funny. Dramatic? Yes. But comical? No. She is glad to have an outlet for her ridiculous nature and chooses to use these gifts for good with FRI. Also she would like to give a shout out to Matt on Guitar and thank him for marrying her.</p>
+    </div>
+  </div>
+<div class="column">
+    <div class="content">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/185945467@N05/49637673956/in/datetaken/" title="Amy"><img src="https://live.staticflickr.com/65535/49637673956_853997f0cf_n.jpg" width="252" height="320" alt="Amy"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+    <h3>Amy Chase</h3>
+      <p>  Amy is a bleeding heart liberal soccer mom who works at the BioTechnical Institute of Maryland as a fundraiser during the day, and loves to get politically incorrect at night on the improv stage. Being raised as an only child, Amy learned to amuse herself at an early age, then discovered how much fun it was to amuse others and the result has been countless hours of making classmates laugh to the point of getting detention, a charmed life of being able to joke her way out of speeding tickets, being the snarky colleague you want to sit next to during a painfully boring business meeting, and eventually trying improvisational comedy. </p>
+    </div>
+  </div>
+</body>
+</html>
+
